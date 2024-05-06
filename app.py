@@ -13,7 +13,7 @@ from PIL import Image
 import streamlit as st
 
 import config
-from ultralytics.utils import load_model, infer_uploaded_image, infer_uploaded_video, infer_uploaded_webcam
+from utils import load_model, infer_uploaded_image, infer_uploaded_video, infer_uploaded_webcam
 
 # setting page layout
 st.set_page_config(
